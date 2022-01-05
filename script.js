@@ -3,7 +3,9 @@ var btnyes = document.getElementById('btnyes');
 
 btnno.addEventListener('mouseenter', () => {
     console.log("mouse entrando");
-@@ -8,9 +9,13 @@ btnno.addEventListener('mouseenter', () => {
+    var pos = coordenadas();
+    btnno.style.top = `${pos.posy}px`;
+    btnno.style.left = `${pos.posx}px`;
 })
 
 var coordenadas = () => {
@@ -16,5 +18,4 @@ var coordenadas = () => {
 
 btnyes.addEventListener('click', () => {
     alert('te amo juli felis 1 día de novios :3');
-
 });

@@ -1,4 +1,3 @@
-@@ -1,4 +1,5 @@
 var btnno = document.getElementById('btnno');
 var btnyes = document.getElementById('btnyes');
 

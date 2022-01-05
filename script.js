@@ -19,3 +19,4 @@ var coordenadas = () => {
 btnyes.addEventListener('click', () => {
     alert('te amo juli felis día 1 de novios :3');
 });
+
